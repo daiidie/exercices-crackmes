@@ -1,8 +1,6 @@
-const sentence = 'The quick brown fox jumps over the lazy dog.';
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 
-const index = 1337;
-
-console.log(`The character code ${sentence.charCodeAt(index)} is equal to ${sentence.charAt(index)}`);
-// expected output: "The character code 113 is equal to q"
+console.log(animals.slice(-3, -1));
+// expected output: Array ["bison", "camel", "duck", "elephant"]
 
   
